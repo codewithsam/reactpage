@@ -1,6 +1,6 @@
 # reactpage
 
-##INSTRUCTIONS TO SETUP
+## INSTRUCTIONS TO SETUP
 
 ```
 git clone https://github.com/codewithsam/reactpage.git
