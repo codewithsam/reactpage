@@ -1,0 +1,21 @@
+.page {
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  font-size: 16px;
+  max-width: 1440px;
+  margin: 0px auto;
+  margin-top: 70px;
+  .leftpage {
+    flex-grow: 1;
+    max-width: 70%;
+    padding: 50px 15px;
+  }
+  .rightpage {
+    flex-grow: 1;
+    padding: 50px 25px;
+    position: fixed;
+    right: 40px;
+    width: 30%;
+  }
+}

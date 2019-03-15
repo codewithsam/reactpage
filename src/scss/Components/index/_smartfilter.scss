@@ -1,0 +1,68 @@
+.filter-wrapper {
+  background-color: rgba(18, 18, 18, 0.5);
+  padding: 15px 25px;
+  h3 {
+    font-family: Plain;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    margin: 0;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+  p {
+    font-family: Plain;
+    font-size: 14px;
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .filter-tabs {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #121212;
+    list-style: none outside none;
+    display: flex;
+    flex-direction: row;
+    li {
+      cursor: pointer;
+      &:hover {
+        color: #ffffff;
+        border-bottom: 2px solid #b50a34;
+      }
+      &.active {
+        color: #ffffff;
+        border-bottom: 2px solid #b50a34;
+      }
+      padding: 10px 15px;
+      font-family: Plain;
+      font-size: 16px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.88;
+      letter-spacing: normal;
+      color: rgba(255, 255, 255, 0.4);
+    }
+  }
+}
+.panel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &__item {
+    border: 1px solid #121212;
+    padding: 10px 15px;
+    margin-top: 10px;
+  }
+}
+
+.tab-content {
+  margin-top: 10px;
+}

@@ -1,0 +1,32 @@
+.stepper-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  &__btn {
+    cursor: pointer;
+    padding: 5px 15px;
+    color: #ffffff;
+    background-color: #4ebbe4;
+    font-size: 12px;
+    border: 1px solid #16a2d7;
+    border-radius: 4px;
+
+    &--leftpad {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    &--rightpad {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+
+  &__input {
+    border: 0;
+    width: 160px;
+    text-align: center;
+    font-size: 16px;
+  }
+}
